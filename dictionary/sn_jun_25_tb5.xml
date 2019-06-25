@@ -1,3 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="tb5" max_length="40" name="sn_jun_25_tb5" type="collection"/>
+    <element label="tb5" max_length="40" name="sn_jun_25_tb5" type="collection">
+        <element label="Action Conditions" max_length="40" name="action_conditions" type="action_conditions"/>
+        <element label="Approval Rule" max_length="4000" name="approval_rule" type="approval_rules"/>
+        <element label="audio" max_length="40" name="audio" type="audio"/>
+        <element label="auto increment" max_length="40" name="auto_increment" type="auto_increment"/>
+        <element label="auto number" max_length="40" name="auto_number" type="auto_number"/>
+        <element label="true false" max_length="40" name="true_false" type="boolean"/>
+        <index name="index">
+            <element name="auto_increment"/>
+        </index>
+    </element>
 </database>
