@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="tb3" max_length="40" name="sn_jun_25_tb3" type="collection">
-        
+        <element label="My col" max_length="10" name="my_col" type="sys_class_name"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <index name="index">
+            <element name="my_col"/>
+        </index>
+        <index name="index2">
             <element name="sys_class_name"/>
         </index>
     </element>
