@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="tb4" max_length="40" name="sn_jun_25_tb4" type="collection">
+        <element label="col1" max_length="10" name="col1" type="sys_class_name"/>
+        <element label="col2" max_length="10" name="col2" type="sys_class_name"/>
         <element label="Sys class name" max_length="40" name="sys_class_name" type="sys_class_name"/>
         <index name="index">
+            <element name="col2"/>
+        </index>
+        <index name="index2">
             <element name="sys_class_name"/>
+        </index>
+        <index name="index3">
+            <element name="col1"/>
         </index>
     </element>
 </database>
