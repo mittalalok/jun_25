@@ -1,3 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="tb3" max_length="40" name="sn_jun_25_tb3" type="collection"/>
+    <element label="tb3" max_length="40" name="sn_jun_25_tb3" type="collection">
+        
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
 </database>
